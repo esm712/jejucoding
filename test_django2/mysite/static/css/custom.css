@@ -1,0 +1,108 @@
+.navbar_new {
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+a:hover{
+  color:#18947b;
+}
+/*검색 바 */
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search_input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_input {
+  padding: 0 10px;
+  width: 450px;
+  caret-color: red;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_icon {
+  background: white;
+  color: #18947b;
+
+}
+
+.search_icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+}
+
+.left{
+  text-align: left;
+}
+
+@media (min-width: 768px) { /*768 이상일 때 적용 */
+  .request-form{
+    padding: 2.4375rem;
+    padding-top: 2.4375rem;
+    padding-right: 2.4375rem;
+    padding-bottom: 2.4375rem;
+    padding-left: 2.4375rem;
+    max-width: 35rem;
+  }
+  .question{
+    padding: 2.5rem;
+  }
+}
+
+.button-wrapper{
+  display: flex;
+}
+
+.step-wrapper{
+  width: 100%;
+  text-align: right;
+  display: flex;
+}
+
+.request-form-wrap{
+  min-height: 300px;
+  width: 37.5rem;
+  padding-right: 2.5rem;
+  z-index: 2;
+  background: gold;
+}
+
+.badge{
+padding: 5em; /*왜 안먹어 */
+}
+
+/* 이승민 css */
+.iconsize{
+  font-size: 3rem;
+}
+
+.color-red{
+  color: red;
+}
+.color-blue{
+  color: blue;
+}
